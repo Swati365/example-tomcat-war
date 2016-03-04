@@ -52,7 +52,7 @@ swati/example-tomcat-war:
     - ls -l $CATALINA_HOME
     - ls -l /usr/share/tomcat7
     - cd $TOMCAT_HOME/newrelic
-    - java -jar newrelic.jar install
+    - sudo java -jar newrelic.jar install
     #- sudo yum -y install java
     #- cd /usr/local
     #- sudo curl -O http://mirror.olnevhost.net/pub/apache/maven/binaries/apache-maven-3.2.1-bin.tar.gz
