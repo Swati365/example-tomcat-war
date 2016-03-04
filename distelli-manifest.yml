@@ -1,4 +1,4 @@
-bmcgehee/example-tomcat-war:
+swati/example-tomcat-war:
 
   Env:
     # Set the below enviornment variables for your environment
