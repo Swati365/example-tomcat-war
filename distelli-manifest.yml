@@ -73,5 +73,6 @@ swati/example-tomcat-war:
     - 'echo "You can validate the install by pointing your browser at http://$publicip:$PORT/SimpleTomcatWebApp"'
     
   PostStart:
-    - sudo $TOMCAT_HOME/bin/shutdown.sh
-    - sudo $TOMCAT_HOME/bin/start.sh
+    #- sudo $TOMCAT_HOME/bin/shutdown.sh
+    #- sudo $TOMCAT_HOME/bin/start.sh
+    - sudo service tomcat7 restart
